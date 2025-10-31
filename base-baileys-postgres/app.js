@@ -18,9 +18,9 @@ const {downloadMediaMessage } = require("@whiskeysockets/baileys");
 require('dotenv').config();
 const POSTGRES_DB_HOST = process.env.POSTGRES_DB_HOST || 'localhost';
 const POSTGRES_DB_USER = process.env.POSTGRES_DB_USER || 'postgres';
-const POSTGRES_DB_PASSWORD = process.env.POSTGRES_DB_PASSWORD || 'tumaco2025';
-const POSTGRES_DB_NAME = process.env.POSTGRES_DB_NAME || 'VyCla01';
-const POSTGRES_DB_PORT = process.env.POSTGRES_DB_PORT || '5432';
+const POSTGRES_DB_PASSWORD = process.env.POSTGRES_DB_PASSWORD || '********';
+const POSTGRES_DB_NAME = process.env.POSTGRES_DB_NAME || '******';
+const POSTGRES_DB_PORT = process.env.POSTGRES_DB_PORT || '****';
 
 console.log(`Conectando a PostgreSQL en ${POSTGRES_DB_HOST}:${POSTGRES_DB_PORT}`);
 
